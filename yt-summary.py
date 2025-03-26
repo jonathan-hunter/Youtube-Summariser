@@ -72,11 +72,11 @@ def yt_summariser(video_id):
     # Function - generate transcript summary title
     def generate_title(text):
         """
-        Uses the OpenAI API to generate a summary of the transcript.
+        Uses the OpenAI API to generate a title representative of the summary.
         Args:
-            text (str): The transcript of the YouTube video.
+            text (str): The summary of the YouTube video.
         Returns:
-            str: The summary of the transcript.
+            str: The title representative of the summary.
         """
         response =  openai.chat.completions.create(
             model="gpt-4o-mini",  # or another valid model name if you have access
