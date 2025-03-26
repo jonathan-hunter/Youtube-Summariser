@@ -8,6 +8,6 @@ yt-summary.py is a python script to create a markdown summary of a YouTube video
 - YouTube and OpenAI API keys passed as environment variables.
 - YouTube video ID for summarisation.
 
-## Example usage script
+## Example Usage Script
 
 yt-summary.sh is included as an example bash script which takes the video URL as an input, extracts the YouTube video ID, passes it to yt-summary.py (in this case run within a docker container) and then copies the output markdown summary to an Obsidian vault.
